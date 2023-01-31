@@ -1,11 +1,15 @@
 # Getting Started with React on OpenShift
 
-
+- Create an react app using [Create React App](https://github.com/facebook/create-react-app)
+- Select your Application Group
 - Use the Node.js builder image
 - Specify your source repository 
 - If you want CD for changes happening on your source, check the "Add pipeline"
+- Press Create
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Managing your environment
+ - Define your development env by creating a file using `touch .env.development.local`. If no such file is defined `npm start` will assume production env
+ - To start your local development server run `npm run start.development.local      `
 
 ## Available Scripts
 
