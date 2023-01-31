@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Getting Started with React on OpenShift
+
+
+- Use the Node.js builder image
+- Specify your source repository 
+- If you want CD for changes happening on your source, check the "Add pipeline"
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
