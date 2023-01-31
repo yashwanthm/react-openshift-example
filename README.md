@@ -1,11 +1,13 @@
 # Getting Started with React on OpenShift
 
-1. Create an react app using [Create React App](https://github.com/facebook/create-react-app)
-2. Select your Application Group
-3. Use the Node.js builder image
-4. Specify your source repository 
-5. If you want CD for changes happening on your source, check the "Add pipeline"
-6. Press Create
+1. Create an react app using [Create React App](https://github.com/facebook/create-react-app) on your machine
+2. Publish the code to a Git repository, copy the url of the repo
+3. Login into [OpenShift Sandbox](https://developers.redhat.com/developer-sandbox)
+4. Click on +Add 
+5. Select Import from Git option
+6. Specify your source repository as https://github.com/yashwanthm/react-openshift-example
+7. If you want CD for changes happening on your source, check the "Add pipeline"
+8. Press Create
 
 ## Managing your environment
  - Define your development env by creating a file using `touch .env.development.local`. If no such file is defined `npm start` will assume production env. See `package.json` to understand the config
